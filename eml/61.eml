@@ -1,0 +1,116 @@
+Received: by mail.d3s.mff.cuni.cz (Postfix)
+	id 365D13881AE; Tue, 25 Dec 2018 22:16:21 +0100 (CET)
+Date: Tue, 25 Dec 2018 22:16:21 +0100 (CET)
+From: MAILER-DAEMON@mail.d3s.mff.cuni.cz (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: Hg0Wiybzs.4CmHcTa3x.4tuTWQyO_@lists.smartarch.cz
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="2EB7338841A.1545772581/mail.d3s.mff.cuni.cz"
+Content-Transfer-Encoding: 7bit
+Message-Id: <20181225211621.365D13881AE@mail.d3s.mff.cuni.cz>
+
+This is a MIME-encapsulated message.
+
+--2EB7338841A.1545772581/mail.d3s.mff.cuni.cz
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host mail.d3s.mff.cuni.cz.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<fail@example.com>: mail for example.com loops back to myself
+
+--2EB7338841A.1545772581/mail.d3s.mff.cuni.cz
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.d3s.mff.cuni.cz
+X-Postfix-Queue-ID: 2EB7338841A
+X-Postfix-Sender: rfc822; Hg0Wiybzs.4CmHcTa3x.4tuTWQyO_@lists.smartarch.cz
+Arrival-Date: Tue, 25 Dec 2018 22:16:21 +0100 (CET)
+
+Final-Recipient: rfc822; fail@example.com
+Original-Recipient: rfc822;fail@example.com
+Action: failed
+Status: 5.4.6
+Diagnostic-Code: X-Postfix; mail for example.com loops back to myself
+
+--2EB7338841A.1545772581/mail.d3s.mff.cuni.cz
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <Hg0Wiybzs.4CmHcTa3x.4tuTWQyO_@lists.smartarch.cz>
+Received: from localhost (localhost [127.0.0.1])
+	by mail.d3s.mff.cuni.cz (Postfix) with ESMTP id 2EB7338841A
+	for <fail@example.com>; Tue, 25 Dec 2018 22:16:21 +0100 (CET)
+Received: from mail.d3s.mff.cuni.cz ([127.0.0.1])
+	by localhost (mail.d3s.mff.cuni.cz [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id smhCoUFJQsxy for <fail@example.com>;
+	Tue, 25 Dec 2018 22:16:20 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.d3s.mff.cuni.cz (Postfix) with ESMTP id B13473880F8
+	for <fail@example.com>; Tue, 25 Dec 2018 22:16:20 +0100 (CET)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.d3s.mff.cuni.cz B13473880F8
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=d3s.mff.cuni.cz;
+	s=D6304448-F87F-11E8-8468-36FF71078B04; t=1545772580;
+	bh=K5t9PQ5CgwNkiU6/VF85VYa/Kmwk9CM9dAwvJzp9TaE=;
+	h=From:To:Message-ID:Date:MIME-Version;
+	b=aHfh2WpQnhJKifo6dKCTem7bvEBBDplfzjMxfBU3kQ5aRe74AyQK9dY7s0BRuUQiC
+	 67mfF6VQyWqGBQVMOAQ3d5doC23wCsYDtKqiAjGM/BVximmHl38ctHHkAsiYUkabng
+	 9G48z3z5Cb6iVfQNSIgVKBCUE1VfJH7Jzpb4WAPfPI4J9FwdoYHUEXqtjpifqXHjX/
+	 nxhQS1aAN9RLzbx3SfstdCe8iiIJxjG/BSs9Xy9Ommr4rZdOXQr0w/H/54r7DMrBfW
+	 E6LT8zAYtyJH6w7G9Fi+UUJU3O8RwqoJ7cFU367DoSu6UmdX4VcwDUrle4e9gQbgFm
+	 SKygbTWTHzNSQ==
+X-Virus-Scanned: amavisd-new at mail.d3s.mff.cuni.cz
+Received: from mail.d3s.mff.cuni.cz ([127.0.0.1])
+	by localhost (mail.d3s.mff.cuni.cz [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id e2zKn7aF4kle for <fail@example.com>;
+	Tue, 25 Dec 2018 22:16:20 +0100 (CET)
+Received: from ip-172-31-24-23.eu-west-1.compute.internal (ec2-18-203-167-43.eu-west-1.compute.amazonaws.com [18.203.167.43])
+	by mail.d3s.mff.cuni.cz (Postfix) with ESMTPSA id 6C5E838822A
+	for <fail@example.com>; Tue, 25 Dec 2018 22:16:20 +0100 (CET)
+Content-Type: multipart/alternative;
+ boundary="--_NmP-a8fd1c1889b802ea-Part_1"
+X-FBL: Hg0Wiybzs.4CmHcTa3x.4tuTWQyO_
+X-Msys-Api: {"campaign_id":"Hg0Wiybzs.4CmHcTa3x.4tuTWQyO_"}
+X-SMTPAPI: {"unique_args":{"campaign_id":"Hg0Wiybzs.4CmHcTa3x.4tuTWQyO_"}}
+X-Mailgun-Variables: {"campaign_id":"Hg0Wiybzs.4CmHcTa3x.4tuTWQyO_"}
+List-ID: Test <4CmHcTa3x.https://lists.smartarch.cz/>
+From: Tomas Bures <bures@d3s.mff.cuni.cz>
+Sender: Hg0Wiybzs.4CmHcTa3x.4tuTWQyO_@lists.smartarch.cz
+To: Fail Example <fail@example.com>
+Reply-To: bures@d3s.mff.cuni.cz
+Subject: Test
+Message-ID: <a7b3f070-4eef-9c1b-06bb-d782cffdf014@lists.smartarch.cz>
+List-Unsubscribe:
+ <https://lists.smartarch.cz/subscription/4CmHcTa3x/unsubscribe/4tuTWQyO_>
+Date: Tue, 25 Dec 2018 21:16:19 +0000
+MIME-Version: 1.0
+
+----_NmP-a8fd1c1889b802ea-Part_1
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Test
+----_NmP-a8fd1c1889b802ea-Part_1
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html><html><head><meta charset=3D"utf-8"><title></title></head><b=
+ody><p>Test</p>
+</body></html>
+----_NmP-a8fd1c1889b802ea-Part_1--
+
+--2EB7338841A.1545772581/mail.d3s.mff.cuni.cz--
+
